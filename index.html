@@ -165,7 +165,17 @@
                         radial-gradient(circle at 80% 70%, rgba(68, 248, 12, 0.2) 0%, transparent 40%),
                         #0a0514 !important;
         }
-    </style>
+    
+    @media (max-width: 768px) {
+        .hero-bg h1 { font-size: 2.5rem !important; }
+        .hero-bg p { font-size: 1rem !important; }
+        .flex-col { flex-direction: column !important; }
+        .grid-cols-3 { grid-template-columns: 1fr !important; }
+        .grid-cols-4 { grid-template-columns: 1fr !important; }
+        .px-4 { padding-left: 16px !important; padding-right: 16px !important; }
+    }
+    
+</style>
 </head>
 <body class="antialiased">
 
