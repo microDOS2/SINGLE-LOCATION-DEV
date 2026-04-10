@@ -7,14 +7,14 @@
 <style>
   /* ===== microDOS(2) dark UI — self‑contained, no images/CDNs ===== */
   :root{
-    --slate-900:#0a0514; --slate-850:#141c31; --slate-800:#150f24; --slate-750:#243247;
+    --slate-900:#0a0514; --slate-850:#150f24; --slate-800:#150f24; --slate-750:#1f1a2e;
     --slate-700:#1a1329; --slate-600:#475569; --slate-500:#64748b; --slate-400:#94a3b8; --slate-300:#cbd5e1; --white:#ffffff;
     --sky-300:#7dd3fc; --sky-400:#38bdf8; --violet-500:#8b5cf6; --pink-500:#ec4899; --cyan-500:#06b6d4; --green-500:#22c55e;
   }
   html{scroll-behavior:smooth}
   body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;background:var(--slate-900);color:var(--slate-300)}
   .container{max-width:1100px;margin:auto;padding:0 24px}
-  .header{position:sticky;top:0;z-index:30;background:rgba(15,23,42,.72);backdrop-filter:blur(8px);border-bottom:1px solid #0b1220}
+  .header{position:sticky;top:0;z-index:30;background:rgba(10,5,20,.72);backdrop-filter:blur(8px);border-bottom:1px solid #0a0514}
   .row{display:flex;align-items:center;justify-content:space-between;padding:16px 0}
   h1{color:#fff;font-weight:800;margin:0;font-size:24px}
   .grad{background:linear-gradient(90deg,var(--sky-400),var(--violet-500));-webkit-background-clip:text;background-clip:text;color:transparent}
@@ -23,10 +23,10 @@
   .section{padding:68px 0}
   .title{color:#fff;font-weight:900;margin:0 0 8px;font-size:40px;text-align:center;letter-spacing:-.02em}
   .subtitle{max-width:860px;margin:0 auto;color:var(--slate-300);text-align:center}
-  .card{background:var(--slate-800);border:1px solid #152238;border-radius:16px;padding:24px}
+  .card{background:var(--slate-800);border:1px solid #150f24;border-radius:16px;padding:24px}
   .grid{display:grid;gap:24px}
   @media(min-width:920px){.grid-3{grid-template-columns:2fr 1fr}.grid-4{grid-template-columns:repeat(4,1fr)}.grid-3eq{grid-template-columns:repeat(3,1fr)}}
-  .kpi{background:rgba(30,41,59,.6);border-radius:12px;padding:16px}
+  .kpi{background:rgba(21,15,36,.6);border-radius:12px;padding:16px}
   .kpi .label{color:var(--slate-400);font-size:14px}
   .kpi .value{color:#fff;font-weight:800}
   h2{color:#fff;margin:0 0 10px;font-size:28px}
@@ -42,7 +42,7 @@
   .dosebar{height:10px;border-radius:999px;background:linear-gradient(90deg,#10b981,#a78bfa,#0ea5e9,#ec4899);box-shadow:0 6px 24px rgba(0,0,0,.4);position:relative}
   .dosebar::after{content:"";position:absolute;left:0;right:0;top:-8px;height:26px;border-radius:999px;background:linear-gradient(90deg,rgba(16,185,129,.15),rgba(167,139,250,.15),rgba(14,165,233,.15),rgba(236,72,153,.15));filter:blur(8px)}
   .pillrow{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:14px}
-  .pill{background:var(--slate-750);border:1px solid #1b2a44;border-radius:14px;padding:16px}
+  .pill{background:var(--slate-750);border:1px solid #1a1329;border-radius:14px;padding:16px}
   .pill .tag{font-size:11px;text-transform:uppercase;color:var(--slate-400)}
   .pill .name{color:#fff;font-weight:800;margin-top:2px}
   .pill .desc{color:var(--slate-300);font-size:14px;margin-top:6px}
@@ -58,7 +58,7 @@
     cursor: pointer;
   }
   .muted{color:var(--slate-500);font-size:12px}
-  .footer{border-top:1px solid #1b2641;color:var(--slate-500);text-align:center;padding:32px 0;margin-top:48px}
+  .footer{border-top:1px solid #1a1329;color:var(--slate-500);text-align:center;padding:32px 0;margin-top:48px}
 </style>
 </head>
 <body>
